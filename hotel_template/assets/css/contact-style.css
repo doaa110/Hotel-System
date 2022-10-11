@@ -1,0 +1,130 @@
+.contact {
+
+    padding: 10rem 0 !important;
+
+}
+
+.about-content {
+    margin-left: 50px;
+    padding: 20px;
+    display: flex;
+}
+
+.about-content div {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.about-content h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.border {
+    width: 44px;
+    height: 4px;
+    background: #F2CC8F;
+    margin-right: 12px;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section h1 {
+    margin-left: 30px;
+    color: #1E202D;
+    width: 50%;
+    font-size: 2.2rem !important;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.contact-section p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #50536B;
+    margin-left: 30px;
+}
+
+.contact-section h3 {
+    color: #1E202D;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bolder;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact-us {
+    padding: 30x;
+    margin-bottom: 40px;
+}
+
+.contact-section {
+    margin: 20px;
+}
+
+.contact-form-container {
+    margin-top: 35px;
+}
+
+.input-field input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    width: 440px;
+    padding: 12px;
+    padding-left: 20px;
+    border: 1px solid #C4C4C4;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Open Sans;
+}
+
+#form-box textarea {
+    height: 180px;
+    resize: none;
+}
+
+#form-box input[type=submit] {
+    font-size: 12px;
+    background-color: #363951;
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    letter-spacing: 1.5;
+    font-family: Open Sans;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+
+
+footer {
+    margin-top: 80px;
+}

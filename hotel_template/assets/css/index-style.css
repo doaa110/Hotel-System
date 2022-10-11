@@ -1,0 +1,412 @@
+.cover {
+    background-color: #F7F7F7;
+}
+
+.hero {
+
+    width: 95%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 37px;
+}
+
+/* div > p --> means that Selects all <p> elements where the parent is a <div> element */
+/* Selects every <p> element that is the first child of its parent */
+section.hero>div:first-child {
+    padding-right: 2rem;
+    margin-top: 130px;
+}
+
+section.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+div.welcome {
+    display: flex;
+    align-items: center;
+}
+
+div.welcome div {
+    width: 44px;
+    height: 4px;
+    background: #F2CC8F;
+    margin-right: 12px;
+}
+
+section.hero h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+section.hero h3 {
+    width: 80%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 82px;
+    color: #1E202D;
+    margin: 0;
+    margin-bottom: 13px;
+}
+
+section.hero p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #50536B;
+}
+
+section.hero a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #3D405B;
+    border-radius: 4px;
+    padding: 1rem 39px;
+}
+
+section.hero div.book-now {
+    margin-top: 32px;
+}
+
+
+.flex-container {
+    width: 98%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 37px;
+}
+
+.flex-tools {
+    flex-basis: 50%;
+    padding-right: 3rem;
+}
+
+.flex-tools img {
+    width: 100%;
+    height: 80%;
+}
+
+.welcome h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.flex-tools h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 82px;
+    color: #1E202D;
+    margin: 0;
+    margin-bottom: 13px;
+}
+
+.flex-tools p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #50536B;
+    margin-bottom: 45px;
+}
+
+.contact-us a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #3D405B;
+    border-radius: 4px;
+    padding: 1rem 39px;
+}
+
+
+/* second about-us section */
+
+.about-us {
+    margin: 10px;
+
+}
+
+.about {
+
+    margin: 20px;
+    /* background-color: #F7F7F7; */
+}
+
+.about-us h1 {
+    color: black;
+}
+
+.about-content {
+    margin-left: auto;
+    display: flex;
+}
+
+.about-content div {
+    margin-top: 39px;
+    margin-bottom: 40px;
+}
+
+.about-content h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.border {
+    width: 44px;
+    height: 4px;
+    background: #F2CC8F;
+    margin-right: 12px;
+}
+
+.about-heading h1 {
+    margin-bottom: 20px;
+    color: #1E202D;
+    font-size: 3.5rem;
+    font-family: Open Sans;
+    font-style: normal;
+
+}
+
+.about-heading p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #50536B;
+    margin-bottom: 45px;
+}
+
+main .about-us-section {
+    background-color: #F7F7F7;
+}
+
+.Suites {
+    background-color: #F7F7F7;
+}
+
+.card {
+    margin: 15px;
+}
+
+.cards {
+    /* display: flex; */
+    display: inline-grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(3, auto);
+    /* background-color: #2196F3; */
+    padding: 15px;
+    margin: 5px;
+
+}
+
+.card-details {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.card-details>h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.card-details>p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.icon {
+    float: right;
+    background-color: #1E202D;
+    border-radius: 100%;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.icon i {
+
+    color: #fff;
+}
+
+.contact-us a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #3D405B;
+    border-radius: 4px;
+    padding: 1rem 39px;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.inspire-top {
+    margin-top: 40px;
+    display: flex;
+}
+
+.inspire {
+    display: flex;
+}
+
+.inspire img {
+    margin: 30px;
+    width: 600px;
+    height: 450px;
+}
+
+.inspiration-content {
+    margin-left: 20px;
+}
+
+.explore h1 {
+    margin-bottom: 20px;
+    color: #1E202D;
+    font-size: 3.8rem;
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+.inspiration-content .explore p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #50536B;
+    margin-bottom: 45px;
+}
+
+.testimonial {
+    background-color: #F7F7F7;
+    width: 80%;
+    float: right;
+}
+
+.testimonials {
+    margin-bottom: 40px;
+}
+
+.testimonial-content {
+    margin-left: 20px;
+}
+
+.testimonial .explore {
+    display: flex;
+}
+
+.testimonial .explore p {
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+.explore-icon img {
+    justify-content: center;
+    width: 30%;
+}
+
+.explore-icon {
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 520px;
+}
+
+.explore-p {
+    float: right;
+}
+
+.logo {
+    position: absolute;
+    right: 78%;
+    margin-top: 8%;
+    margin-right: 10px;
+}
+
+/* .suite-img{
+    margin: 20px;
+} */
+
+/* first-about-us starts*/
+.about-img {
+    /* background-color: #000000; */
+    margin: 55px;
+}
+
+.about-img img {
+    width: 550px;
+}
+
+.about-us-one {
+    display: flex;
+}
+
+.about .about-heading {
+    margin-top: 10px;
+}
+
+.about .about-content {
+    margin-top: 10px;
+}
+
+.about .contact-us a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #3D405B;
+    border-radius: 4px;
+    padding: 10px 30px;
+}

@@ -1,0 +1,156 @@
+head {
+    background-color: #F7F7F7;
+    /* height: 20%; */
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+
+.book-heading {
+    padding: 10rem 0 !important;
+}
+
+.book-heading h1 {
+    color: #1E202D;
+    width: 100%;
+    font-size: 3rem;
+    margin-left: auto;
+}
+
+.book-heading p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 25px;
+    letter-spacing: 0.02em;
+    color: #50536B;
+
+}
+
+.book-heading>div {
+    justify-content: center;
+    text-align: center;
+}
+
+.calender {
+    margin-top: 20px;
+}
+
+.rooms-cards {
+    margin: 20px;
+}
+
+.card {
+    margin: 15px;
+}
+
+.cards {
+    /* display: flex; */
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: #2196F3; */
+    padding: 15px;
+    margin: 5px;
+
+}
+
+.card-details {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.card-details>h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.card-details>p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.icon {
+    float: right;
+    background-color: #1E202D;
+    border-radius: 100%;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.icon i {
+
+    color: #fff;
+}
+
+.contact-us a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #3D405B;
+    border-radius: 4px;
+    padding: 1rem 39px;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.inspire-top {
+    margin-top: 40px;
+    display: flex;
+}
+
+.inspire {
+    display: flex;
+}
+
+.inspire img {
+    margin: 30px;
+    width: 600px;
+    height: 450px;
+}
+
+.inspiration-content {
+    margin-left: 20px;
+}
+
+.about-content {
+    margin-left: auto;
+    display: flex;
+}
+
+.about-content div {
+    margin-top: 39px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.about-content h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.border {
+    width: 44px;
+    height: 4px;
+    background: #F2CC8F;
+    margin-right: 12px;
+}
